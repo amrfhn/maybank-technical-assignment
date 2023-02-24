@@ -20,7 +20,7 @@ export default function SaveSearch() {
               Recent Search
             </Typography>
             {address.map(
-              (index, item) =>
+              (item, index) =>
                 item && (
                   <div key={index} className="search-text">
                     <Typography variant="body2">{item}</Typography>
